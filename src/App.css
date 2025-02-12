@@ -1,0 +1,174 @@
+/*Ui*/
+
+.back {
+  background-image: url(./assets/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* header componet */
+.com-header h1 {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+}
+
+.com-header p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(115, 115, 115, 1);
+  letter-spacing: 0.2px;
+}
+
+
+/* navbar */
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF !important;
+}
+
+.nav-link {
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 24px;
+  color: #FFFFFF !important;
+}
+
+/* banner */
+.banner {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.banner-info h1 {
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 58px;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.banner-info p {
+  font-weight: 500;
+  font-size: 20xp;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.form-box {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+}
+
+/* about section */
+
+.about-card {
+  box-sizing: border-box;
+}
+
+.top-box {
+  background-color: rgba(142, 194, 242, 1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 30px 50px;
+
+  p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+  }
+}
+
+.about-icon {
+  width: 48px;
+  height: 48px;
+  background-color: #FFFFFF;
+}
+
+.about-icon svg {
+  width: 32px !important;
+  color: rgba(142, 194, 242, 1);
+}
+
+.under-box {
+  border: 1px rgba(142, 194, 242, 1) solid;
+  padding: 20px 50px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+
+  p {
+    color: rgba(115, 115, 115, 1);
+  }
+
+  a {
+    text-decoration: none;
+    color: rgba(35, 166, 240, 1);
+  }
+}
+
+/* comment section */
+.comment-card{
+  padding: 20px 30px;
+  border: 1px solid rgba(222, 222, 222, 1);
+  box-sizing: border-box;
+}
+
+.card-icons svg{
+  font-size: 18px;
+}
+
+.comment-card p{
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(115, 115, 115, 1); 
+}
+
+.card-image img{
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+
+/* Faq Card */
+.faq-card{
+  box-sizing: border-box;
+  padding: 15px 25px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.faq-card__icon svg{
+  color:rgba(35, 166, 240, 1);
+  font-size: 22px;
+}
+
+.faq-card-info{
+  h1{
+    font-weight: 700;
+    font-size: 28px;
+    color: rgba(37, 43, 66, 1);
+    letter-spacing: 0.1px;
+  }
+  p{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(115, 115, 115, 1);
+  }
+}
+
+/* price section */
+
+.true-box{
+  width: 25px;
+  height: 25px;
+  background-color: #2DC071;
+}
