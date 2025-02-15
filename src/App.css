@@ -166,9 +166,67 @@
 }
 
 /* price section */
+.price-card{
+  padding-top: 100px !important;
+  background-color: rgba(37, 43, 66, 1);
+  color: #FFFFFF;
+
+  .pricing-card__header{
+    color: #FFFFFF;
+  }
+
+  .pricing-card__title{
+    color:#FFFFFF
+  }
+
+  .check{
+    color: #FFFFFF;
+  }
+}
+
+.praice-card__two{
+  border: rgba(35, 166, 240, 1) solid 1px;
+  padding-top: 90px !important;
+}
 
 .true-box{
   width: 25px;
   height: 25px;
   background-color: #2DC071;
+}
+
+.check{
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(37, 43, 66, 1);
+}
+
+.pricing-card__header{
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(37, 43, 66, 1);
+  text-transform: uppercase;
+}
+
+.pricing-card__title{
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(115, 115, 115, 1);
+}
+
+.summa{
+  .price{
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .valyuta{
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .month{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(142, 194, 242, 1);
+  }
 }

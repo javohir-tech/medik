@@ -10,7 +10,9 @@ function Pricing() {
     <Container className='my-5'>
       <Header header={"Pricing"} subtitle={"Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "} />
       <div className="row">
-        <PricingCard/>
+        <PricingCard name={"Free"} price={0} another={false}/>
+        <PricingCard name={"Standart"} price={9.99} another={true}/>
+        <PricingCard name={"Premium"} price={19.99} another={false}/>
       </div>
     </Container>
   )
