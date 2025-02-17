@@ -168,6 +168,8 @@
 /* price section */
 .price-card{
   padding-top: 100px !important;
+  padding-top: 50px !important;
+  height: 520px;
   background-color: rgba(37, 43, 66, 1);
   color: #FFFFFF;
 
@@ -228,5 +230,18 @@
     font-weight: 600;
     font-size: 14px;
     color: rgba(142, 194, 242, 1);
+  }
+}
+
+/*email section*/
+.email-info{
+  h2{
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+  }
+  p{
+    font-weight: 500;
+    font-size: 14px;
   }
 }

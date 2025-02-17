@@ -12,6 +12,7 @@ import About from './Sections/About';
 import Comment from './Sections/Comment';
 import Faq from './Sections/Faq';
 import Pricing from './Sections/Pricing';
+import Email from './Sections/Email';
 
 function App() {
 
@@ -31,6 +32,8 @@ function App() {
       <Faq/>
       {/*  pricing section */}
       <Pricing/>
+      {/* Email Section */}
+      <Email/>
     </>
   )
 }
