@@ -26,7 +26,7 @@ function Email() {
                            <button className='btn btn-primary' id='email'>Subscribe</button>
                         </InputGroup>
                     </div>
-                </div>
+                </div>  
             </Container>
         </div>
     )
